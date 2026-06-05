@@ -90,7 +90,7 @@ index=Web_log src_ip="192.168.56.102" uri_path="*RFI_bash.php"
 
 The initial GET (10,879 bytes) is the webshell UI loading. The POST requests that follow are commands being sent — the varying response sizes reflect different command outputs. The 3,314-byte response at 13:40:53 corresponds to `systeminfo`, which returns the most data. This byte-size pattern is a reliable way to infer what commands were run even without seeing the request body directly.
 
-> 📸 `screenshots/detection3-webshell-timeline.png`
+> <img width="1920" height="654" alt="Image" src="https://github.com/user-attachments/assets/8518376d-0bb8-47dd-819e-eda3204e9a90" />
 
 ---
 
