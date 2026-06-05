@@ -197,14 +197,3 @@ The most valuable finding here is the Sysmon-to-web-log correlation — matching
 🎥 [Watch](#) *(add link)*
 
 ---
-
-## Screenshots
-
-| File | What it shows |
-|------|--------------|
-| `screenshots/detection1-suricata-signatures.png` | 4 Suricata signatures from attacker IP |
-| `screenshots/detection2-uri-activity.png` | Request counts grouped by URI and method |
-| `screenshots/detection3-webshell-timeline.png` | POST requests with byte sizes per command |
-| `screenshots/detection4-full-timeline.png` | Complete 20-event attacker session |
-| `screenshots/detection5-uploads-directory.png` | All uploads directory access events |
-| `screenshots/detection6-sysmon-commands.png` | 4 commands executed on Windows host |
