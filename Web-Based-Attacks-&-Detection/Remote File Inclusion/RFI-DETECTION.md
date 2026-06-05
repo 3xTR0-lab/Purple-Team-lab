@@ -62,7 +62,7 @@ index=Web_log src_ip="192.168.56.102"
 
 The six POST requests to `RFI_bash.php` are the webshell commands being executed. The 404 on `RFI_bash.ph` shows the attacker made a typo on the first access attempt — a detail that's useful in a real investigation for confirming manual interaction rather than fully automated tooling.
 
-> 📸 `screenshots/detection2-uri-activity.png`
+> 📸 <img width="1919" height="823" alt="Image" src="https://github.com/user-attachments/assets/5abae922-c333-45d2-868e-68417871a0ca" />
 
 ---
 
