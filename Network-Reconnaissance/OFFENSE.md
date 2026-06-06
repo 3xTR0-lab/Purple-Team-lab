@@ -47,4 +47,4 @@ The scan returned **33,517 open ports** across **34,541 total packets**, confirm
 
 ## Screenshots
 
-> 📸 `screenshots/nmap-output.png`
+><img width="825" height="542" alt="Image" src="https://github.com/user-attachments/assets/9ad4419c-2423-4fda-9a7f-9a1adbd3e492" />
