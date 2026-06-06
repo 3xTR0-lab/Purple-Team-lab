@@ -58,7 +58,9 @@ index=* EventCode=1
 
 **Result:** 2 events returned — `whoami` and `ipconfig` — confirming execution on the Windows host after successful login. This directly ties back to the brute force alerts above and completes the attack timeline.
 
-> 📸 `screenshots/detection3-post-login-commands.png`
+> 
+<img width="1896" height="604" alt="Image" src="https://github.com/user-attachments/assets/288dc967-1e79-4733-9a14-3cb68c5319a8" />
+<img width="1893" height="851" alt="Image" src="https://github.com/user-attachments/assets/20779682-67e2-45d9-a4da-07fc411a8cc1" />
 
 ---
 
@@ -79,11 +81,3 @@ The detection chain here tells the full story — the first two queries catch th
 🎥 [Watch](#) *(add link)*
 
 ---
-
-## Screenshots
-
-| File | What it shows |
-|------|--------------|
-| `screenshots/detection1-sysmon-ssh-connections.png` | 2,014 connections from attacker IP on port 22 |
-| `screenshots/detection2-suricata-ssh-signature.png` | 830 SSH Bruteforce signature hits |
-| `screenshots/detection3-post-login-commands.png` | whoami and ipconfig process creation on Windows |
