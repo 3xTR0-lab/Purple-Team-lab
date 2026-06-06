@@ -87,7 +87,7 @@ sqlmap -u "http://192.168.56.105/dvwa/vulnerabilities/sqli/?id=1&Submit=Submit" 
 
 **Result — Columns in `users`:**
 ```
-user_id   | int
+user      | varchar
 first_name| varchar
 last_name | varchar
 user      | varchar
