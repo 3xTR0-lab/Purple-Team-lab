@@ -79,6 +79,6 @@ Having all three line up is what makes this a high-confidence detection rather t
 
 ## 📹 Video Demonstration
 
-🎥 [Watch](#) *(add link)*
+🎥 [Watch](#) *https://www.youtube.com/watch?v=TVthhLdR4Vo&list=PLyvuyjd57e75N5De-CX6oE3L3YIkR80Qe&index=1&t=49s*
 
 ---
