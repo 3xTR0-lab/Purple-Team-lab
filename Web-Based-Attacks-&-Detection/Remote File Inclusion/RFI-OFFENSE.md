@@ -56,27 +56,9 @@ net user
 These commands confirmed I had code execution on the target OS, revealed the network configuration, dumped detailed system information, and enumerated local user accounts — all from a browser-based shell over HTTP.
 
 > <img width="920" height="387" alt="Image" src="https://github.com/user-attachments/assets/fc41a35b-505e-4eca-95af-d0e3d845709a" />
-  <img width="935" height="825" alt="Image" src="https://github.com/user-attachments/assets/19b59422-a730-4bd9-a46c-853aca4bf77e" />
+> <img width="935" height="825" alt="Image" src="https://github.com/user-attachments/assets/19b59422-a730-4bd9-a46c-853aca4bf77e" />
 
----
 
-## Attack Timeline
-
-| Time | Action |
-|------|--------|
-| 13:36:49 | Browsed to uploads directory |
-| 13:37:00 | Logged into DVWA |
-| 13:38:19 | Set security level to Low |
-| 13:40:07 | Navigated to file upload page |
-| 13:40:17 | Uploaded `RFI_bash.php` |
-| 13:40:26 | First access attempt — 404 (typo in filename) |
-| 13:40:31 | Webshell accessed — 200, 10,879 bytes |
-| 13:40:37 | Executed `whoami` |
-| 13:40:42 | Executed `ipconfig` |
-| 13:40:53 | Executed `systeminfo` |
-| 13:41:06 | Executed `net user` |
-
-Total time from login to command execution: under 5 minutes.
 
 ---
 
